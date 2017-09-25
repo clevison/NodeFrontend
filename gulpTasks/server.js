@@ -4,8 +4,8 @@ const webserver = require('gulp-webserver')
 
 gulp.task('server', ['watch'], function() {
   gulp.src('public').pipe(webserver({
-    livrereload: true,
-    port: 3000,
+    livereload: true,
+    port: 4000,
     open: true
   }))
 })
